@@ -25,19 +25,15 @@ def send_whatsapp_template_message(token, phone_number, template_name, language_
         return f'Error: {e}'
 
 # Uso de la función con una plantilla
-<<<<<<< HEAD
+
 access_token = 'EAADr2Bfvo30BO3bD5Em0g79E3lUeNjnSS9fPV5ulStPJwDp09EiwXqwid3h7sHJGm6B36JI4QRg2lN0KglTcgvdQNyNHWgKpxzcIZCY3wu8CEZCH7U0YpTn75SjiCj02jOZBsTmlHRZCDhinWC2u56DtxPijq0Ckbo4KxP0l0vzLfVYTbkjyhdHU17a1UIZBIBhGhjWQT9WCxnY67ugZDZD'
 recipient_number = '573115839595'
-=======
 access_token = 'EAADr2Bfvo30BO74iuBBg3fqiJTEYH6bg45T1DhNTpLtKZCywpZBi0vEMui1HOEmkESBfa3MW0I5dIh0ox3ZCC4ic7c8wGkqrIVQGFE5mZCXAOvODmGgB7RS3MRA4mTgfiqZBVSQpScRfB6mSZCjpwSQmAtmZApKuO8n9wEMPZBzKhS7TBAG7IrQzSvZC2M8NLenmpG7KBVALTE4ycOsvDyWgZD'
 recipient_number = '57313 8645975'
->>>>>>> 2b15f5d62b78ff4e9c5118a617f32f7d3acd194e
+
 template_name = 'defualt'
 language_code = 'es'
 
 response = send_whatsapp_template_message(access_token, recipient_number, template_name, language_code)
-<<<<<<< HEAD
+
 print(response)
-=======
-print(response)
->>>>>>> 2b15f5d62b78ff4e9c5118a617f32f7d3acd194e
